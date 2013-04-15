@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:padding="5dp"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg"
+    >
+
+    <ImageView
+        android:id="@+id/teiathclientinitialscreenlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo1" />
+
+    <ScrollView
+        android:id="@+id/teiathclientinitialscreenscrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/teiathclientinitialscreenlinearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+             android:orientation="vertical" >
+<!--             android:gravity="center_horizontal" -->
+           
+            <TextView
+                android:id="@+id/offername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="&apos;Ονομα"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/black" />
+
+<!--             <TextView -->
+<!--                 android:id="@+id/textView1" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+                
+<!--                 android:text="TextView" /> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textView11" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:textColor="@android:color/black" -->
+<!--                     android:text="Εταιρεία :" /> -->
+
+<!--                 <TextView -->
+<!--                     android:paddingLeft="5dp" -->
+<!--                     android:id="@+id/textView2" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="TextView" /> -->
+
+<!--             </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:text="Περιγραφή :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   
+                    android:textColor="@android:color/black"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                  android:paddingTop="5dp" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+                   
+<!--                     android:id="@+id/textView4" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Κατηγορία :" -->
+<!--                     android:textColor="@android:color/black" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textView14" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingLeft="5dp" -->
+<!--                      android:textColor="@android:color/black" -->
+<!--                     android:text="TextView" /> -->
+
+<!--             </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                 android:paddingTop="10dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ψήφοι :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:paddingLeft="5dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black" 
+                    android:paddingLeft="5dp"
+                   
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                     android:textColor="@android:color/black" 
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:orientation="vertical" -->
+<!--                 android:paddingTop="10dp" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textView6" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Λέξεις-κλειδιά :" -->
+<!--                     android:textColor="@android:color/black" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textView16" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                      android:textColor="@android:color/black"  -->
+<!--                     android:text="TextView" /> -->
+
+<!--             </LinearLayout> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:orientation="vertical" -->
+<!--                 android:paddingTop="10dp" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textView7" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Δεσμευμένα κουπόνια :" -->
+<!--                     android:textColor="@android:color/black" /> -->
+
+<!--                 <LinearLayout -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" > -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/textView19" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:text="TextView" -->
+<!--                         android:textColor="@android:color/black" /> -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/textView20" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:paddingLeft="5dp" -->
+<!--                          android:textColor="@android:color/black" -->
+<!--                         android:text="TextView" /> -->
+
+<!--                 </LinearLayout> -->
+
+<!--             </LinearLayout> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:orientation="vertical" -->
+<!--                 android:paddingTop="10dp" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textView8" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Μέγιστος αριθμός κουπονιών ανά σπουδαστή :" -->
+<!--                     android:textColor="@android:color/black" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textView18" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+                     
+<!--                      android:textColor="@android:color/black"  -->
+<!--                     android:text="TextView" /> -->
+
+<!--             </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Όροι εξαργύρωσης κουπονιού :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                  android:paddingTop="10dp" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:orientation="vertical" > -->
+         
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/TextView02" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="Λήξη προσφοράς :" -->
+<!--                     android:textColor="@android:color/black" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/TextView01" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="TextView" -->
+<!--                     android:textColor="@android:color/black" /> -->
+<!--             </LinearLayout> -->
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="Αποδέσμευση" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

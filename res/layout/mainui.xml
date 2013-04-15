@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+     android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/foooterdown"
+        android:orientation="vertical" >
+        
+        
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="© Τ.Ε.Ι Αθήνας 2012" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/foooterdown"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/footer_logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LinearLayout01"
+        android:layout_below="@+id/LinearLayout02"
+        android:gravity="center"
+
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:paddingTop="10dp"
+            
+            android:src="@drawable/pic2" />
+
+        <ImageButton
+            android:id="@+id/imgbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:paddingTop="10dp"
+            android:src="@drawable/pic3" />
+
+        <ImageButton
+            android:id="@+id/imgbtn3"
+            android:layout_width="wrap_content"
+         
+            android:paddingTop="10dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/imgbtn4"
+            android:layout_width="wrap_content"
+       
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic4" />
+
+        <ImageButton
+            android:id="@+id/imgbtn5"
+            android:layout_width="wrap_content"
+      
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic5" />
+
+        <ImageButton
+            android:id="@+id/imgbtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        
+            android:paddingTop="10dp"
+            android:src="@drawable/pic1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

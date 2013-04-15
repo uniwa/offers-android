@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app creds -->
+    <string name="app_name">TeiAthCoupons</string>
+    
+    <!-- generic messages -->
+    <string name="download">Πραγματοποιείται Σύνδεση</string>
+    <string name="plzwait"> Παρακαλώ Περιμένετε..</string>
+    
+    <string name="studname">Ονομα</string>
+    <string name="pass">Kωδικός</string>
+    
+    <string name="checkinternet">Παρακαλώ ελέξτε την σύνδεσή σας στο Internet</string>
+    <string name="enternameandpass">Παρακαλώ δώστε όνομα και κωδικό</string>
+ 
+    
+     <string name="successlogin">H αυθεντικοποίηση ολοκληρώθηκε με επιτυχία!</string>
+     <string name="faillogin">Δώστε έγκυρο όνομα και κωδικό χρήστη!</string>
+
+       <string name="mykey">012oevILm0JhXpm0EvF8GL39VORRZV_euit9UdQ</string>
+     
+       
+        <string name="mycoupons">Τα κουπόνια μου</string>
+        
+         <string name="myvotedcoupons">Προσφορές που έχω ψηφίσει</string>
+        
+        
+        
+           <string name="title">Τίτλος</string>
+              <string name="code">Κωδικός</string>
+                 <string name="date">Ημ/νία δέσμευσης</string>
+         
+       
+</resources>

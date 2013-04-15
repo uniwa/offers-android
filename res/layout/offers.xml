@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+     android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+         android:background="@drawable/foooterdown"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:background="@null"
+            android:src="@drawable/all" />
+
+        <ImageButton
+            android:id="@+id/happyhour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+             android:background="@null"
+            android:src="@drawable/hayppyhour" />
+
+        <ImageButton
+            android:id="@+id/limited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+             android:background="@null"
+            android:src="@drawable/limited" />
+
+        <ImageButton
+            android:id="@+id/coupons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+             android:background="@null"
+            android:src="@drawable/coupons" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+     >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/foooterdown"
+        android:layout_alignParentBottom="true" >
+
+        <ImageButton
+            android:id="@+id/imgbtnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/prev" />
+
+        <ImageButton
+            android:id="@+id/imgbtnnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/next" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

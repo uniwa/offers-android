@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.knkcloud.andoid.teiathcoupons"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+    <application
+        
+        android:icon="@drawable/teilogo"
+        android:label="@string/app_name">
+        
+<!--          -->
+      
+        <uses-library android:name="com.google.android.maps" />
+        
+
+        <activity
+            android:name=".ui.LoginUI"
+          android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+
+         android:screenOrientation="portrait">
+           
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+               <activity android:name=".ui.MyCouponsActivity"
+         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+ android:launchMode="singleTop"
+         android:screenOrientation="portrait">
+        </activity>
+        
+        
+          <activity android:name=".ui.MainUI"
+         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+ android:launchMode="singleTop"
+         android:screenOrientation="portrait">
+        </activity>
+        
+          
+             <activity android:name=".ui.OffersCompanies"
+         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+ android:launchMode="singleTop"
+         android:screenOrientation="portrait">
+        </activity>
+          
+             <activity android:name=".ui.Offers"
+         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+ android:launchMode="singleTop"
+         android:screenOrientation="portrait">
+        </activity>
+          
+             <activity android:name=".ui.WebViewActivity"
+         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+ android:launchMode="singleTop"
+         android:screenOrientation="portrait">
+        </activity>
+		 <activity
+            android:name=".ui.Statistics"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ui.SearchActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+          
+        
+                          <activity android:name=".ui.MyVotesActivity"
+         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+ android:launchMode="singleTop"
+         android:screenOrientation="portrait">
+        </activity>
+             
+    </application>
+
+</manifest>

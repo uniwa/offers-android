@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+     android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/foooterdown"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/termson" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/foooterdown"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/footer_logo" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_above="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Όροι χρήσης"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                 android:textColor="@android:color/black"
+                android:text="ΠΑΡΑΚΑΛΟΥΜΕ ΔΙΑΒΑΣΤΕ ΤΟΥΣ ΠΑΡΑΚΑΤΩ ΟΡΟΥΣ ΧΡΗΣΗΣ ΠΡΟΣΕΚΤΙΚΑ ΚΑΘΩΣ ΠΕΡΙΕΧΟΥΝ ΤΟΥΣ ΟΡΟΥΣ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ ΠΟΥ ΕΦΑΡΜΟΖΟΝΤΑΙ ΣΤΗΝ ΑΠΟ ΜΕΡΟΥΣ ΣΑΣ ΧΡΗΣΗ ΤΩΝ ΥΠΗΡΕΣΙΩΝ ΜΑΣ ΚΑΙ ΤΗΝ ΑΚΟΛΟΥΘΟΥΜΕΝΗ ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ ΚΑΙ ΟΙ ΟΠΟΙΟΙ ΣΥΝΙΣΤΟΥΝ ΝΟΜΙΚΑ ΔΕΣΜΕΥΤΙΚΗ ΣΥΜΦΩΝΙΑ ΜΕΤΑΞΥ ΣΑΣ ΚΑΙ ΤΗΣ ΕΤΑΙΡΙΑΣ ΜΑΣ"
+                 />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:text="Κάθε επισκέπτης/μέλος αποδέχεται και συναινεί στη διατήρηση αρχείου από το site του Προγράμματος « Εξωστρεφείς Δράσεις Παροχής Ψηφιακών Υπηρεσιών » και στην επεξεργασία των προσωπικών του στοιχείων με σκοπό την παροχή των ηλεκτρονικών υπηρεσιών που διαθέτει, την εν γένει ενημέρωσή του. Το Πρόγραμμα « Εξωστρεφείς Δράσεις Παροχής Ψηφιακών Υπηρεσιών » καλύπτει το σύνολο των προσωπικών δεδομένων και στοιχείων καθώς επίσης και τις προϋποθέσεις συγκέντρωσης, επεξεργασίας και διαχείρισης των προσωπικών δεδομένων των επισκεπτών/χρηστών/μελών του site. Κάθε επισκέπτης/μέλος δύναται να ζητήσει τη διαγραφή των προσωπικών του δεδομένων ή/και τη διόρθωσή τους ή/και την ενημέρωσή τους. Περαιτέρω, το site μπορεί να χρησιμοποιεί cookiesγια την αναγνώριση του επισκέπτη/μέλους ορισμένων υπηρεσιών και σελίδων του. Σε καμία περίπτωση με την παρούσα δεν καλύπτεται η σχέση μεταξύ των επισκεπτών/χρηστών/μελών από το site και οιωνδήποτε υπηρεσιών που δεν υπόκεινται στον έλεγχο του Προγράμματος « Εξωστρεφείς Δράσεις Παροχής Ψηφιακών Υπηρεσιών ». Το Πρόγραμμα συλλέγει προσωπικά δεδομένα στο site:
+\nΑ) Όταν ο επισκέπτης χρήστης εγγράφεται στις υπηρεσίες του
+\nΒ) Όταν χρησιμοποιεί τις υπηρεσίες του
+\nΓ) Όταν χρησιμοποιεί τις σελίδες του site και εισέρχεται στα προγράμματα
+\n\nΚάθε χρήστης υποχρεούται να δηλώνει τα αληθινά και πλήρη στοιχεία του καθώς και να ενημερώνει το site για κάθε αλλαγή παρέχοντας τις απαιτούμενες πληροφορίες που απαιτούνται ώστε τα στοιχεία αυτά να είναι πλήρη, αληθινά και ενημερωμένα. Ο χρήστης αποδέχεται και συναινεί όπως το Πρόγραμμα «Εξωστρεφείς Δράσεις Παροχής Ψηφιακών Υπηρεσιών», υπό τους όρους και τους περιορισμούς των διατάξεων του Συντάγματος και του Ν.2472/1997 και προς το σκοπό της πλήρους διασφάλισης και προστασίας των προσωπικών δεδομένων των χρηστών/μελών της ιστοσελίδας του Προγράμματος, θα διατηρεί σε αρχείο και θα επεξεργάζεται τυχόν προσωπικά δεδομένα του, τα οποία θα περιέρχονται σε γνώση αυτού (του Προγράμματος) από την επίσκεψη του χρήστη στο site με σκοπό : 
+\nΑ) την εκπλήρωση των όρων και υποχρεώσεων των επιμέρους υπηρεσιών, που παρέχει το site στους χρήστες του,
+\nΒ) την εν γένει ενημέρωση του χρήστη,
+\nΓ) την ικανοποίηση των εκάστοτε απαιτήσεων του χρήστη αναφορικά με τις υπηρεσίες που διατίθενται από και μέσω του site,
+\nΔ) την ενημέρωση του χρήστη σχετικά με νέες υπηρεσίες,
+\nΕ) την εύρυθμη λειτουργία του site,
+\nΤ) κάθε συναφή με τα ανωτέρω ενέργεια"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:text="© Τ.Ε.Ι Αθήνας 2012" />
+
+</RelativeLayout>

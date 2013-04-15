@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+     android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/foooterdown"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/foooterdown"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/footer_logo" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_above="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Συχνές ερωτήσεις"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                 android:textColor="@android:color/black"
+                 android:text="Ερώτηση: Πώς μπορώ να δω προσφορές για μια συγκεκριμένη κατηγορία;\n\n
+Απάντηση: Επιλέγοντας οποιαδήποτε κατηγορία από την πλαϊνή μπάρα, εμφανίζονται μόνο οι προσφορές εκείνες που ανήκουν στη συγκεκριμένη κατηγορία. Για ευκολία, ο συνολικός αριθμός προσφορών της κάθε κατηγορίας αναγράφεται εντός παρενθέσεων δίπλα στο όνομα της κατηγορίας.
+\n\n
+Ερώτηση: Πώς μπορώ να αναζητήσω προσφορές με λέξεις-κλειδιά;\n\n
+Απάντηση: Κάτω από κάθε προσφορά μπορεί να υπάρχουν ορισμένες λέξεις-κλειδιά, σχετικές με την προσφορά. Για να δείτε όλες τις προσφορές που τις περιέχουν, κάντε κλικ πάνω στη λέξη-κλειδί. Υπάρχει επίσης η δυνατότητα για αναζήτηση με οποιεσδήποτε λέξεις. Απλά πληκτρολογήστε τους όρους που σας ενδιαφέρουν στο πεδίο αναζήτησης, αριστερά πάνω από τις κατηγορίες.
+\n\n
+Ερώτηση: Τι είναι οι πράσινοι και κόκκινοι αριθμοί που εμφανίζονται δίπλα σε κάθε προσφορά;\n\n
+Απάντηση: Ο πράσινος αριθμός με το + μπροστά, είναι οι θετικές ψήφοι που έχει δεχτεί η προσφορά. Ο κόκκινος αριθμός με το - είναι οι αρνητικές ψήφοι. Σε παρένθεση αναγράφεται ο συνολικός αριθμός ψήφων της προσφοράς.
+\n\n
+Ερώτηση: Πώς μπορώ να αξιολογήσω μια προσφορά;\n\n
+Απάντηση: Στη σελίδα της προσφοράς υπάρχουν δύο επιλογές αξιολόγησης, θετική και αρνητική. Κάθε σπουδαστής μπορεί να αξιολογήσει κάθε προσφορά μόνο μία φορά. Μπορεί επίσης να αλλάξει την ψήφο ή και να την ακυρώσει. Οι εξωτερικοί χρήστες δεν έχουν τη δυνατότητα αξιολόγησης προσφορών, αλλά βλέπουν τα αποτελέσματα της αξιολόγησης των σπουδαστών.
+\n\n
+Ερώτηση: Μπορώ να μοιραστώ μια προσφορά που με ενδιαφέρει με άλλους;\n\n
+Απάντηση: Βεβαίως. Όλοι οι χρήστες μπορούν να δημοσιεύσουν μια προσφορά στο Twitter. Εναλλακτικά, μπορείτε να αντιγράψετε τη διεύθυνση της προσφοράς που σας ενδιαφέρει και να τη στείλετε μέσω email, chat, κτλ.
+\n\n
+Ερώτηση: Συνάντησα κάποιο πρόβλημα/έχω μια πρόταση για βελτίωση της εφαρμογής. Πώς μπορώ να επικοινωνήσω με το διαχειριστή;\n\n
+Απάντηση: Χρησιμοποιώντας τη φόρμα αναφοράς προβλήματος, μπορείτε να επικοινωνήσετε με το διαχειριστή της εφαρμογής. Αν δεν είστε σπουδαστής, παρακαλώ εισάγετε το email σας, ώστε να μπορέσουμε να επικοινωνήσουμε μαζί σας. Η φόρμα είναι διαθέσιμη μέσω συνδέσμου στο μενού στην κορυφή της σελίδας.
+\n\n
+Ερώτηση: Θα ήθελα να ενημερώνομαι για τις νέες προσφορές, μπορώ;\n\n
+\nΑπάντηση: Μπορείτε να εγγραφείτε σε κάποιο από τα RSS feeds,ώστε να λαμβάνετε όλες τις νέες προσφορές ή για κάθε κατηγορία ή τύπο. Οι σπουδαστές έχουν επιπλέον τη δυνατότητα να λαμβάνουν ενημερώσεις μέσω email. Επικυρώνοντας τη σχετική επιλογή στο προφίλ του, ο σπουδαστής μπορεί να λαμβάνει ένα καθημερινό μήνυμα με το σύνολο των νέων προσφορών."
+             />
+           
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   
+        android:textColor="@android:color/white"
+        android:text="© Τ.Ε.Ι Αθήνας 2012" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+        android:src="@drawable/queston" />
+
+</RelativeLayout>
